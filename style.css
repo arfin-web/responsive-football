@@ -1,0 +1,110 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* common css */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+header {
+    width: 100%;
+    height: 100vh;
+    background-color: #2D25A0;
+    overflow: hidden;
+}
+main {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container {
+    width: 1156px;
+    background-color: gainsboro;
+    margin-top: 60px;
+}
+button {
+    width: 148px;
+    height: 44px;
+    background-color: #CC2982;
+    color: #FFF;
+    font-weight: 700;
+    border: 1px solid #CC2982;
+}
+
+/* header part */
+.header-part {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.header-text {
+    width: 450px;
+    height: 400px;
+}
+.header-text h1 {
+    font-size: 64px;
+    color: #FFF;
+    margin-top: 100px;
+}
+.header-image {
+    width: 500px;
+    height: 400px;
+}
+.header-image img {
+    width: 100%;
+    margin-top: 100px;
+}
+
+/* players part */
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 25px;
+    margin-left: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.player {
+    width: 350px;
+    background-color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+    border-radius: 5px;
+}
+.player-image {
+    width: 340px;
+    height: 340px;
+}
+.player-image img {
+    width: 100%;
+    margin-top: 5px;
+}
+.player-info {
+    padding-left: 7px;
+}
+
+/* footer part */
+footer {
+    width: 100%;
+}
+.footer-iteams {
+    text-align: center;
+}
+.footer-iteams img {
+    width: 200px;
+    height: 60px;
+}
+.social-icon a {
+    font-size: 13px;
+    color: gray;
+    background-color: gainsboro;
+    padding: 6px;
+    border-radius: 50%;
+    margin-right: 6px;
+}
