@@ -57,11 +57,28 @@ button {
 .header-image {
     width: 500px;
     height: 400px;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
 }
 .header-image img {
     width: 100%;
     margin-top: 100px;
+    transition: all linear 0.8s;
 }
+.header-image img.hover-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+.header-image:hover img {
+    opacity: 0;
+}
+.header-image:hover img.hover-image {
+    opacity: 1;
+}
+
 
 /* players part */
 .players {
